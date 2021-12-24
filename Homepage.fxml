@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="594.0" prefWidth="825.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomepageController">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0" />
+      <Pane prefHeight="122.0" prefWidth="825.0" style="-fx-background-color: orange;">
+         <children>
+            <Label layoutX="34.0" layoutY="43.0" text="YallaNakol" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="31.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="pizzaButton" layoutX="69.0" layoutY="380.0" mnemonicParsing="false" onAction="#pizzaButtonOnAction" prefHeight="26.0" prefWidth="157.0" text="Pizza" />
+      <Button fx:id="burgerButton" layoutX="344.0" layoutY="380.0" mnemonicParsing="false" onAction="#burgerButtonOnAction" prefHeight="26.0" prefWidth="157.0" text="Burger" />
+      <Button fx:id="dessertButton" layoutX="610.0" layoutY="380.0" mnemonicParsing="false" onAction="#dessertButtonOnAction" prefHeight="26.0" prefWidth="157.0" text="Dessert" />
+      <ImageView fx:id="pizzaImageView" fitHeight="150.0" fitWidth="200.0" layoutX="48.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../src/Images/pizza.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="burgerImageView" fitHeight="150.0" fitWidth="220.0" layoutX="313.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../src/Images/Burger-1916-web2-681x454.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="dessertImageView" fitHeight="150.0" fitWidth="200.0" layoutX="589.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../src/Images/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__05__20190520-cheesecake-vicky-wasik-34-16488b3671ae47b5b29eb7124dbaf938.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

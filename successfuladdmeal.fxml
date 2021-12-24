@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="230.0" prefWidth="458.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.successfuladdmealController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="234.0" prefWidth="449.0">
+         <children>
+            <Label alignment="CENTER" layoutX="29.0" layoutY="86.0" prefHeight="61.0" prefWidth="392.0" text="Your meal has been added successfully ! ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

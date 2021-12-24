@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="479.0" prefWidth="687.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DessertController">
+   <children>
+      <Pane prefHeight="128.0" prefWidth="687.0" style="-fx-background-color: orange;">
+         <children>
+            <Label layoutX="25.0" layoutY="56.0" text="YallaNakol" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="31.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fx:id="salesucreImageView" fitHeight="177.0" fitWidth="180.0" layoutX="119.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/Images/SaleSucre.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lapoireImageView" fitHeight="177.0" fitWidth="157.0" layoutX="413.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/Images/la-poire-logo-DDD0DC2F6B-seeklogo.com.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="salesucreorder" layoutX="140.0" layoutY="366.0" mnemonicParsing="false" onAction="#salesucreorderButtonOnAction" prefHeight="26.0" prefWidth="133.0" text="Order" />
+      <Button fx:id="lapoireorder" layoutX="416.0" layoutY="366.0" mnemonicParsing="false" onAction="#lapoireorderButtonOnAction" prefHeight="26.0" prefWidth="133.0" text="Order" />
+   </children>
+</AnchorPane>
